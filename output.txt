@@ -1,0 +1,17 @@
+[EQUIPMENTS]
+id|name|model|location|status
+2|Ventilator Portable Philips V60|SN-1002|ICU|OK
+4|Infusion Pump Terumo TE-112|SN-1004|UGD|DUE
+5|Defibrillator Biphasic Zoll R-Series|SN-1005|IGD|FAIL
+6|Patient Monitor GE B40|SN-1006|NICU|OK
+
+[SCHEDULES]
+idSchedule|idEquipment|dueDate|status
+10|4|2025-12-20|OPEN
+11|5|2025-12-21|OPEN
+
+[RECORDS]
+idRecord|idEquipment|date|result|notes
+101|2|2024-11-01|Pass|Battery replaced
+102|5|2024-12-01|Fail|Capacitor discharge error output too low
+150|6|2025-12-08|PASS|Already reset the clock and date settings
